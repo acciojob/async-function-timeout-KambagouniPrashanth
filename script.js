@@ -5,7 +5,10 @@ const formelemnt=document.querySelector("form")
 function myGreeting() {
         // console.log(formelemnt[1].id)
         // console.log(formelemnt[0].id)
-	formelemnt[0]=formelemnt[0]
+	const para=document.createElement("p");
+	para.innnerText=formelemnt[0].value;
+	formelemnt.appendChild(para);
+	
 }
  window.setTimeout(myGreeting,formelemnt[1])
 

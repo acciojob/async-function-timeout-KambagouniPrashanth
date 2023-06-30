@@ -5,12 +5,12 @@ const formelemnt=document.querySelector("form")
 function myGreeting() {
         // console.log(formelemnt[1].id)
         // console.log(formelemnt[0].id)
-	const para=document.createElement("p");
-	para.innnerText=formelemnt[0].value;
-	formelemnt.appendChild(para);
+	const divelement=document.getElementById("output")
+	divelement.innnerText=formelemnt[0].value;
+
 	
 }
- window.setTimeout(myGreeting,formelemnt[1])
+ window.setTimeout(myGreeting,formelemnt[1].value)
 
 
 

@@ -1,5 +1,8 @@
 //your JS code here. If required.
- const formelemnt=document.querySelector("form")
+ 
+
+function myGreeting() {
+	const formelemnt=document.querySelector("form")
         console.log(formelemnt[1].id)
         console.log(formelemnt[0].id)
         function time(){
@@ -11,9 +14,5 @@
 
         }
 
-
-function myGreeting() {
-	const target=document.getElementByTag("input")[1];
-	const button=document.getElementBy
 	
 }

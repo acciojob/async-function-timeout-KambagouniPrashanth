@@ -1,16 +1,16 @@
 //your JS code here. If required.
  
-const formelemnt=document.querySelector("form")
+const formele=document.getElementById("form
 
 function myGreeting() {
         // console.log(formelemnt[1].id)
         // console.log(formelemnt[0].id)
 	const divelement=document.getElementById("output")
-	divelement.innnerText=formelemnt[0].value;
+	divelement.innnerText=formelemnt.element['text'].value;
 
 	
 }
- window.setTimeout(myGreeting,formelemnt[1].value)
+ window.setTimeout(myGreeting,formelemnt.element['delay'].value)
 
 
 

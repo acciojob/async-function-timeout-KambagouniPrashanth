@@ -3,7 +3,7 @@ const inputText=document.getElementById("text")
 const delayNumber=document.getElementById("delay")
 const btn=document.getElementById("btn")
 const divElement=document.getElementById("output")
-async function displayafterdelay(){
+async function myGreeting(){
 
     await new Promise((resolve)=>{
         setTimeout(()=>{
@@ -13,7 +13,7 @@ async function displayafterdelay(){
     divElement.innerText=inputText.value;
 }
 btn.addEventListener("click",()=>{
-    displayafterdelay()
+    myGreeting()
 })
 
 
